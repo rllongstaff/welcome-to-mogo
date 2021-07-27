@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ccc;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="ARROW_DOWN_copy" data-name="ARROW / DOWN copy" class="cls-1" d="M0.523,18.86L8.381,11,0.419,3.04h0A1.5,1.5,0,0,1,2.541.919h0l9,9h0A1.492,1.492,0,0,1,12,11v0.007a1.5,1.5,0,0,1-.459,1.079h0l-9,9,0,0A1.5,1.5,0,1,1,.523,18.86Z"/>
+</svg>

@@ -1,0 +1,65 @@
+/*
+
+************
+Fonts to use 
+************
+
+Kaushan Script Regular for all handwriting
+
+Montserrat Bold 
+---------------
+
+All headings
+Learn more button
+
+
+Montserrat Regular
+------------------
+
+Roboto Regular
+-------------
+
+All normal paragraphs
+
+Roboto Light Italic
+-------------------
+
+
+font-family: 'Kaushan Script', cursive;
+font-weight: 400;
+
+
+font-family: 'Montserrat', sans-serif;
+font-weight: 400, 700;
+
+font-family: 'Roboto', sans-serif;
+font-weight: 300 italic, 400
+
+
+*************
+colors to use
+*************
+
+Red
+------ 
+Hex: #f38181;
+RGB: 243, 129, 129
+
+Yellow
+_______
+
+Hex: #fce38a;
+RGB: 252, 227, 138
+
+Green
+_______
+
+Hex: #eaffd0
+RGB: 234, 255, 208
+
+Blue
+______
+Hex: #95e1d3;
+RGB: 149, 225, 211
+
+*/
