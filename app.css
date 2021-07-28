@@ -62,4 +62,37 @@ ______
 Hex: #95e1d3;
 RGB: 149, 225, 211
 
+
+Overlay Value
+linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%), 
+
 */
+
+
+header {
+    background: center / cover no-repeat linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%), url("img/bird-banner.png");
+    color: #ffffff;
+    height: 100vh;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 small, h2 small {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    text-transform: none;
+}
+
+h1 {
+    font-size: 4.5em;
+    text-align: center;
+}
+
+h1 small {
+    display: block;
+    font-size: 2.3rem;
+}
