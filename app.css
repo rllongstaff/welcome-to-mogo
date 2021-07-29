@@ -75,6 +75,19 @@ header {
     height: 100vh;
 }
 
+.navbar-brand, .nav-link {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+}
+
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
