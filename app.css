@@ -68,6 +68,11 @@ linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%),
 
 */
 
+body {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 header {
     background: center / cover no-repeat linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%), url("img/bird-banner.png");
@@ -79,33 +84,99 @@ header {
     color: #ffffff;
 }
 
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.9em;
+}
+
 .navbar-brand:hover {
     color: #ffffff;
 }
 
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
 .nav-link:hover, .nav-link:focus {
     color: #fce38a;
-    border-bottom: 2px solid #fce38a;
+    text-decoration: underline;
+    text-decoration-color: #fce38a; 
+    text-decoration-thickness: .225em;
+    text-underline-offset: 10px;
 }
 
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h1 small, h2 small {
+    display: block;
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     text-transform: none;
 }
 
 h1 {
-    font-size: 4.5em;
-    text-align: center;
+    font-size: 9.5em;
+    line-height: 0.93;
 }
 
 h1 small {
-    display: block;
-    font-size: 2.3rem;
+    font-size: 4.3rem;
+    line-height: 2.3;
+}
+
+h2 {
+    color: #333333;
+    font-size: 1.8rem;
+}
+
+h2 small {
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.learn-more-btn {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    font-size: 0.8em;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.learn-more-btn:hover, .learn-more-btn:focus {
+    color: #ffffff;
+}
+
+.section-nav .nav-link strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;  
+    font-size: 1.5rem; 
+}
+
+.section-nav li .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+    font-size: 1.1rem 
+    opacity: 0.25;
+}
+
+.section-nav .nav-link:hover, .section-nav .nav-link:focus {
+    opacity: 1;
 }
