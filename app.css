@@ -73,11 +73,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
 header {
-    background: center / cover no-repeat linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%), url("img/bird-banner.png");
+    background: center / cover no-repeat url("img/bird-banner.png");
     color: #ffffff;
-    height: 100vh;
+}
+
+.header-overlay {
+    /*height: 100vh;*/
+}
+
+.overlay {
+    background: linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%);
 }
 
 .navbar-brand, .nav-link {
@@ -149,15 +155,20 @@ h3 {
     text-transform: uppercase;
 }
 
+.custom-line {
+    width: 60px;
+}
+
 .learn-more-btn {
     border: 3px solid #ffffff;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700; 
     font-size: 0.8em;
-    padding: 10px 30px;
+    padding: 8px 30px;
     text-decoration: none;
     text-transform: uppercase;
+    width: 160px;
 }
 
 .learn-more-btn:hover, .learn-more-btn:focus {
@@ -178,6 +189,8 @@ h3 {
 }
 
 .section-nav .nav-link:hover, .section-nav .nav-link:focus {
+    color: #ffffff;
+    text-decoration: none;
     opacity: 1;
 }
 
