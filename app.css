@@ -78,10 +78,6 @@ header {
     color: #ffffff;
 }
 
-.header-overlay {
-    /*height: 100vh;*/
-}
-
 .overlay {
     background: linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%);
 }
@@ -114,6 +110,19 @@ header {
     text-underline-offset: 10px;
 }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: #ffffff;
+} 
+
+.custom-toggler.navbar-toggler:focus {
+    border-color: #fce38a;
+    box-shadow: 0 0 0 0.2rem #fce38a; 
+} 
+
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -135,7 +144,7 @@ h1 {
 
 h1 small {
     font-size: 2.3rem;
-    line-height: 1.3;
+    line-height: 2;
 }
 
 h2 {
@@ -172,29 +181,59 @@ h3 {
 }
 
 .learn-more-btn:hover, .learn-more-btn:focus {
-    color: #ffffff;
+    border-color: #fce38a;
+    color: #fce38a;
+}
+
+.section-nav li {
+    opacity: 0.5;
+}
+
+.section-nav li:hover,
+.section-nav li:focus {
+    opacity: 1;
 }
 
 .section-nav .nav-link strong {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;  
-    font-size: 1.5rem; 
+    font-size: 1.3rem; 
 }
 
 .section-nav li .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;  
-    font-size: 1.1rem 
-    opacity: 0.25;
+    font-size: 0.9rem 
 }
 
 .section-nav .nav-link:hover, .section-nav .nav-link:focus {
     color: #ffffff;
     text-decoration: none;
-    opacity: 1;
 }
 
-@media (min-width: 575.98px) {
+@media (min-width: 576px) {
+    h1 {
+        font-size: 5.5em;
+    }
+
+    h1 small {
+        font-size: 3rem;
+        line-height: 2.3;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 6.5em;
+    }
+
+    h1 small {
+        font-size: 3.3rem;
+        line-height: 2.3;
+    }
+}
+
+@media (min-width: 992px) {
     h1 {
         font-size: 9.5em;
     }
@@ -203,4 +242,18 @@ h3 {
         font-size: 4.3rem;
         line-height: 2.3;
     }
+
+    .section-nav .nav-link strong {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;  
+        font-size: 1.5rem; 
+    }
+    
+    .section-nav li .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;  
+        font-size: 1.1rem 
+    }
 }
+
+
