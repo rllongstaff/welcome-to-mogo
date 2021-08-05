@@ -97,6 +97,7 @@ header {
 .text-overlay h3 {
     color: #ffffff;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .overlay-shadow {
@@ -235,6 +236,19 @@ h3 {
 .section-nav .nav-link:hover, .section-nav .nav-link:focus {
     color: #ffffff;
     text-decoration: none;
+}
+
+.numbers-section {
+    background-color: #95e1d3;
+    color: #ffffff; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.numbers-section span {
+    font-weight: bold;
+    font-size: 4rem;
 }
 
 @media (min-width: 576px) {
