@@ -59,7 +59,7 @@ RGB: 234, 255, 208
 
 Blue
 ______
-Hex: #95e1d3;
+Hex: #95e1d3; 
 RGB: 149, 225, 211
 
 
@@ -71,6 +71,7 @@ linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%),
 body {
     color: #999999;
     font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
 }
 
 header {
@@ -80,6 +81,26 @@ header {
 
 .overlay {
     background: linear-gradient(180deg, rgba(243,129,129,0.90) 0%, rgba(252,227,138,0.90) 100%);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.custom-card {
+    position: relative;
+}
+
+.text-overlay h3 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.overlay-shadow {
+    box-shadow: 10px 10px 0px 0px #95e1d3;
 }
 
 .navbar-brand, .nav-link {
@@ -118,6 +139,7 @@ header {
     border-color: #ffffff;
 } 
 
+.custom-toggler.navbar-toggler:active,
 .custom-toggler.navbar-toggler:focus {
     border-color: #fce38a;
     box-shadow: 0 0 0 0.2rem #fce38a; 
@@ -166,6 +188,10 @@ h3 {
 
 .custom-line {
     width: 60px;
+}
+
+.red-line {
+    border-color: #f38181!important;
 }
 
 .learn-more-btn {
