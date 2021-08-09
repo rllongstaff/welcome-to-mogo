@@ -271,6 +271,12 @@ h3 {
     margin-top: -24.15rem;
     margin-bottom: -5.6rem;
 }
+
+.accordion-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
 @media (min-width: 576px) {
     h1 {
         font-size: 5.5em;
