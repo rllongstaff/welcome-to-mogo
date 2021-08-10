@@ -330,6 +330,10 @@ h3 {
     margin-bottom: 2rem;
 }
 
+.section-icons {
+    background-color: #f8f8f8;
+}
+
 @media (min-width: 576px) {
     h1 {
         font-size: 5.5em;
