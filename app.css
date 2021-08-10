@@ -277,6 +277,41 @@ h3 {
     font-weight: 300;
     font-style: italic;
 }
+
+.accordion-link {
+    text-decoration: none;
+}
+
+.testimonial-section {
+    background-color: #f8f8f8;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.testimonial-section span {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+}
+
+.speech-bubble-icon {
+    border: 3px solid #95e1d3;
+    display: inline-block;
+    padding: 2.6rem;
+}
+
+.carousel-control-prev {
+    justify-content: start;
+}
+
+.carousel-control-next {
+    justify-content: end;
+} 
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(0.5);
+}
+
 @media (min-width: 576px) {
     h1 {
         font-size: 5.5em;
