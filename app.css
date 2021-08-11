@@ -187,6 +187,12 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    color: #333333;
+    font-style: italic;
+    font-size: 1rem;
+}
+
 .custom-line {
     width: 60px;
 }
@@ -332,6 +338,30 @@ h3 {
 
 .section-icons {
     background-color: #f8f8f8;
+}
+
+.happy-clients-section {
+    position: relative;
+}
+
+.happy-clients-section::after {
+    content: "";
+    background: center / cover no-repeat url("img/lake-landscape.png");
+    opacity: 0.14;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+.happy-clients-section h3 {
+    margin-bottom: 0.4rem;
+}
+
+.happy-clients-section h4 {
+    margin-bottom: 1.2rem;
 }
 
 @media (min-width: 576px) {
