@@ -364,6 +364,36 @@ h4 {
     margin-bottom: 1.2rem;
 }
 
+.img-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.img-container p {
+    background-color: #95e1d3;
+    color: white;
+    font-style: italic;
+    position: absolute;
+    bottom: 0.6rem;
+    left: -0.6rem;
+    text-align: center;
+    padding: 1rem 1rem 0.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+}
+
+.img-container span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    font-size: 2rem;
+}
+
+.social-icons span {
+    font-style: italic;
+}
+
 @media (min-width: 576px) {
     h1 {
         font-size: 5.5em;
