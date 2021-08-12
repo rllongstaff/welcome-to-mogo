@@ -394,6 +394,27 @@ h4 {
     font-style: italic;
 }
 
+.map-section {
+    position: relative;
+}
+
+.map-section h2 {
+    color: #f38181;
+    font-size: 1.5rem;
+}
+
+.map-section::after {
+    content: "";
+    background: center / cover no-repeat url("img/landscape-map.png");
+    opacity: 0.14;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
 @media (min-width: 576px) {
     h1 {
         font-size: 5.5em;
