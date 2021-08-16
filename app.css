@@ -340,6 +340,27 @@ h4 {
     background-color: #f8f8f8;
 }
 
+
+
+.image-item {
+    background: lightcoral;
+}
+
+.image-item:nth-of-type(7) {
+    grid-column-start: 4;
+    /*   grid-column-end: 5; */
+    grid-column-end: span 1;
+}
+
+.image-item:nth-of-type(3) {
+    grid-row-start: span 2;
+}
+
+
+
+
+
+
 .happy-clients-section {
     position: relative;
 }
